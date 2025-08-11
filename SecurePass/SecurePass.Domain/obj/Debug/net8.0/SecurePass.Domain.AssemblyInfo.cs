@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecurePass.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c67e3856c3700b51aecaf4cf6ed9695da9b2085")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cdaefb1a97d107830fa9b81888a17bb41d1ec62")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecurePass.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecurePass.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
