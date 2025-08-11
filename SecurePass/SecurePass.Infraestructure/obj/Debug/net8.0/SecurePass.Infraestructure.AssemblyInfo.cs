@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecurePass.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c67e3856c3700b51aecaf4cf6ed9695da9b2085")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f46253a844409b1f6b8077a70703bd0f7c7157c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecurePass.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecurePass.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
