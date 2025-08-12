@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace SecurePass.Domain.Entities
 {
+
+
     public class DigitalSecurityTip
     {
-        public List<string> GoodPractices { get; set; }
-        public List<string> DynamicUpdateOfTips { get; set; }
+        public int Id { get; set; }
+        public List<string> GoodPractice { get; set; }
+        public List<string> DynamicUpdateOfTip { get; set; }
+
+        public virtual User User { get; set; }
     }
 }

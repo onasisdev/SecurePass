@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePass.API", "SecurePass.API\SecurePass.API.csproj", "{2BB9385E-11D0-466E-8034-8CFA54A6F153}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePass.Domain", "SecurePass.Domain\SecurePass.Domain.csproj", "{9709AEA7-AC3A-4420-BAD5-B6233F7A24D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePass.Infraestructure", "SecurePass.Infraestructure\SecurePass.Infraestructure.csproj", "{1D2C4236-A20F-4576-AD54-07263331A86E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePass.Infrastructure", "SecurePass.Infraestructure\SecurePass.Infrastructure.csproj", "{1D2C4236-A20F-4576-AD54-07263331A86E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurePass.Application", "SecurePass.Application\SecurePass.Application.csproj", "{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}"
 EndProject

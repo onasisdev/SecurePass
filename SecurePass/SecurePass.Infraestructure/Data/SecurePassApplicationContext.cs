@@ -9,6 +9,9 @@ namespace SecurePass.Infraestructure.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<PasswordGeneration> PasswordGenerations { get; set; }
-        public DbSet<PasswordStrengthEvaluation> passwordStrengthEvaluations { get; set; }
+        public DbSet<PasswordStrengthEvaluation> PasswordStrengthEvaluations { get; set; }
+        public DbSet<DigitalSecurityTip> DigitalSecurityTips { get; set; }
+        public DbSet<PasswordGeneration_PasswordStrengthEvaluation> PasswordGenerations_PasswordStrengthEvaluations { get; set; }
+
     }
 }

@@ -8,6 +8,7 @@ namespace SecurePass.Domain.Entities
 {
     public class PasswordStrengthEvaluation
     {
+        public int Id { get; set; }
         public string StrengthLevel { get; set; }
         public string GoodOrBadAspect { get; set; }
         public string SuggestionMessage { get; set; }

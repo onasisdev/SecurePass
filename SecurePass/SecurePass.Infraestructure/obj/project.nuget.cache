@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TsZK5BCyoqA=",
+  "dgSpecHash": "yn6DzDUNwkc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Infraestructure\\SecurePass.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Infraestructure\\SecurePass.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\onasi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\onasi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

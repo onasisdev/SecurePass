@@ -4748,9 +4748,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Infraestructure\\SecurePass.Infraestructure.csproj",
-      "projectName": "SecurePass.Infraestructure",
-      "projectPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Infraestructure\\SecurePass.Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Infraestructure\\SecurePass.Infrastructure.csproj",
+      "projectName": "SecurePass.Infrastructure",
+      "projectPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Infraestructure\\SecurePass.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\onasi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
