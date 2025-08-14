@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9709AEA7-AC3A-4420-BAD5-B6233F7A24D7}|SecurePass.Domain\\SecurePass.Domain.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9709AEA7-AC3A-4420-BAD5-B6233F7A24D7}|SecurePass.Domain\\SecurePass.Domain.csproj|solutionrelative:securepass.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\dtos\\passwordstrengthevaluationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\dtos\\passwordstrengthevaluationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9709AEA7-AC3A-4420-BAD5-B6233F7A24D7}|SecurePass.Domain\\SecurePass.Domain.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.domain\\entities\\passwordstrengthevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9709AEA7-AC3A-4420-BAD5-B6233F7A24D7}|SecurePass.Domain\\SecurePass.Domain.csproj|solutionrelative:securepass.domain\\entities\\passwordstrengthevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "SecurePass.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "SecurePass.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T22:16:25.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PasswordStrengthEvaluationDto.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Dtos\\PasswordStrengthEvaluationDto.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Dtos\\PasswordStrengthEvaluationDto.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Dtos\\PasswordStrengthEvaluationDto.cs",
-              "RelativeToolTip": "SecurePass.Application\\Dtos\\PasswordStrengthEvaluationDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T22:16:10.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PasswordStrengthEvaluation.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Domain\\Entities\\PasswordStrengthEvaluation.cs",
-              "RelativeDocumentMoniker": "SecurePass.Domain\\Entities\\PasswordStrengthEvaluation.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Domain\\Entities\\PasswordStrengthEvaluation.cs",
-              "RelativeToolTip": "SecurePass.Domain\\Entities\\PasswordStrengthEvaluation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T22:15:47.621Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
