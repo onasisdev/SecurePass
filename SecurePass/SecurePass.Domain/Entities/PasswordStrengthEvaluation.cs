@@ -14,6 +14,8 @@ namespace SecurePass.Domain.Entities
         public string SuggestionMessage { get; set; }
 
         public virtual PasswordGeneration PasswordGeneration { get; set; }
-        public virtual User User { get; set; } 
+        public int PasswordGenerationId { get; set; }
+        public virtual User User { get; set; }
+        public int UserId { get; set; }
     }
 }

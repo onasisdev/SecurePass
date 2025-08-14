@@ -1,16 +1,18 @@
 ﻿using SecurePass.Application.Contracts;
 using SecurePass.Domain.Entities;
 using SecurePass.Infraestructure.Repositories;
+using SecurePass.Application.Dtos;
+using SecurePass.Infrastructure.Interfaces;
 
 namespace SecurePass.Application.Services
 {
     public class UserService : IUserService
     {
-        private readonly UserRepository _repo;
+        private readonly IUserRepository _repo;
         private readonly UnitOfWork _unitOfWork;
 
 
-        public UserService(UserRepository _repo, UnitOfWork _unitOfWork)
+        public UserService(IUserRepository _repo, UnitOfWork _unitOfWork)
         {
             this._repo = _repo;
             this._unitOfWork = _unitOfWork;

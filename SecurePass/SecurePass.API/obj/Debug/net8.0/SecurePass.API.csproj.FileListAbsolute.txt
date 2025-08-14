@@ -163,10 +163,16 @@ C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA 
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\SecurePa.253C1378.Up2Date
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\SecurePass.API.dll
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\refint\SecurePass.API.dll
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\SecurePass.API.pdb
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\SecurePass.API.genruntimeconfig.cache
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\ref\SecurePass.API.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\SecurePass.Application.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\SecurePass.Domain.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\SecurePass.Infrastructure.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\SecurePass.Application.pdb
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\SecurePass.Domain.pdb
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\SecurePass.Infrastructure.pdb
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

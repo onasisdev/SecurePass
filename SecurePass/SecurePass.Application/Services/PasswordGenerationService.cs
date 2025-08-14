@@ -1,16 +1,18 @@
 ﻿using SecurePass.Application.Contracts;
 using SecurePass.Domain.Entities;
 using SecurePass.Infraestructure.Repositories;
+using SecurePass.Application.Dtos;
+using SecurePass.Infrastructure.Interfaces;
 
 namespace SecurePass.Applicatio.Services
 {
     public class PasswordGenerationService : IPasswordGenerationService
     {
-        private readonly PasswordGenerationRepository _repo;
+        private readonly IPasswordGenerationRepository _repo;
         private readonly UnitOfWork _unitOfWork;
 
 
-        public PasswordGenerationService(PasswordGenerationRepository _repo, UnitOfWork _unitOfWork)
+        public PasswordGenerationService(IPasswordGenerationRepository _repo, UnitOfWork _unitOfWork)
         {
             this._repo = _repo;
             this._unitOfWork = _unitOfWork;

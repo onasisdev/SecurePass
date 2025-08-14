@@ -1,19 +1,23 @@
 ﻿using SecurePass.Application.Contracts;
 using SecurePass.Domain.Entities;
 using SecurePass.Infraestructure.Repositories;
+using SecurePass.Application.Dtos;
+using SecurePass.Infrastructure.Interfaces;
 
-namespace SecurePass.Applicatio.Services
+namespace SecurePass.Application.Services
 {
     public class DigitalSecurityTipCategoryService : IDigitalSecurityTipCategoryService
     {
-        private readonly DigitalSecurityTipCategoryRepository _repo;
+     
         private readonly UnitOfWork _unitOfWork;
+        private readonly IDigitalSecurityTipCategoryRepository _repo;
 
 
-        public DigitalSecurityTipCategoryService(DigitalSecurityTipCategoryRepository _repo, UnitOfWork _unitOfWork)
+        public DigitalSecurityTipCategoryService(IDigitalSecurityTipCategoryRepository _repo, UnitOfWork _unitOfWork)
         {
-            this._repo = _repo;
+          
             this._unitOfWork = _unitOfWork;
+            this._repo = _repo;
         }
 
         public async Task<List<DigitalSecurityTipCategoryDto>> GetAllDigitalSecurityTipCategoryAsync()

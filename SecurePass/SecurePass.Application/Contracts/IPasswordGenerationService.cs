@@ -1,5 +1,4 @@
-﻿using SecurePass.Domain.Entities;
-using SecurePass.Infraestructure.Repositories;
+﻿using SecurePass.Application.Dtos;
 
 namespace SecurePass.Application.Contracts
 {

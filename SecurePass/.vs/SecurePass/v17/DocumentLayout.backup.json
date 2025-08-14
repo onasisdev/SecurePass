@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\dtos\\passwordgenerationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\dtos\\passwordgenerationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\contracts\\ipasswordstrengthevaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\contracts\\ipasswordstrengthevaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\contracts\\ipasswordgenerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\contracts\\ipasswordgenerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\contracts\\idigitalsecuritytipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\contracts\\idigitalsecuritytipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\contracts\\idigitalsecuritytipcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\contracts\\idigitalsecuritytipcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\services\\passwordstrengthevaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\services\\passwordstrengthevaluationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\services\\passwordgenerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\services\\passwordgenerationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\services\\digitalsecuritytipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\services\\digitalsecuritytipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.application\\services\\digitalsecuritytipcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77E6C04B-2B2E-4298-927F-34CD7EC2CBF8}|SecurePass.Application\\SecurePass.Application.csproj|solutionrelative:securepass.application\\services\\digitalsecuritytipcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9709AEA7-AC3A-4420-BAD5-B6233F7A24D7}|SecurePass.Domain\\SecurePass.Domain.csproj|c:\\users\\onasi\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\0 itla programming practices\\final projects\\securepass\\securepass\\securepass.domain\\entities\\passwordgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9709AEA7-AC3A-4420-BAD5-B6233F7A24D7}|SecurePass.Domain\\SecurePass.Domain.csproj|solutionrelative:securepass.domain\\entities\\passwordgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPasswordStrengthEvaluationService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IPasswordStrengthEvaluationService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Contracts\\IPasswordStrengthEvaluationService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IPasswordStrengthEvaluationService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Contracts\\IPasswordStrengthEvaluationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:57:59.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IPasswordGenerationService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IPasswordGenerationService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Contracts\\IPasswordGenerationService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IPasswordGenerationService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Contracts\\IPasswordGenerationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:57:53.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IDigitalSecurityTipService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IDigitalSecurityTipService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Contracts\\IDigitalSecurityTipService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IDigitalSecurityTipService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Contracts\\IDigitalSecurityTipService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:57:48.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IUserService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Contracts\\IUserService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IUserService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Contracts\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "PasswordGenerationDto.cs",
+              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Dtos\\PasswordGenerationDto.cs",
+              "RelativeDocumentMoniker": "SecurePass.Application\\Dtos\\PasswordGenerationDto.cs",
+              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Dtos\\PasswordGenerationDto.cs",
+              "RelativeToolTip": "SecurePass.Application\\Dtos\\PasswordGenerationDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywBcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:54:34.914Z",
+              "WhenOpened": "2025-08-14T22:14:21.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDigitalSecurityTipCategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IDigitalSecurityTipCategoryService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Contracts\\IDigitalSecurityTipCategoryService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Contracts\\IDigitalSecurityTipCategoryService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Contracts\\IDigitalSecurityTipCategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PasswordGeneration.cs",
+              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Domain\\Entities\\PasswordGeneration.cs",
+              "RelativeDocumentMoniker": "SecurePass.Domain\\Entities\\PasswordGeneration.cs",
+              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Domain\\Entities\\PasswordGeneration.cs",
+              "RelativeToolTip": "SecurePass.Domain\\Entities\\PasswordGeneration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:57:43.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PasswordStrengthEvaluationService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\PasswordStrengthEvaluationService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Services\\PasswordStrengthEvaluationService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\PasswordStrengthEvaluationService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Services\\PasswordStrengthEvaluationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:57:36.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PasswordGenerationService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\PasswordGenerationService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Services\\PasswordGenerationService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\PasswordGenerationService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Services\\PasswordGenerationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:57:24.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DigitalSecurityTipService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\DigitalSecurityTipService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Services\\DigitalSecurityTipService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\DigitalSecurityTipService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Services\\DigitalSecurityTipService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:57:22.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:56:26.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DigitalSecurityTipCategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\DigitalSecurityTipCategoryService.cs",
-              "RelativeDocumentMoniker": "SecurePass.Application\\Services\\DigitalSecurityTipCategoryService.cs",
-              "ToolTip": "C:\\Users\\onasi\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\0 ITLA Programming Practices\\Final Projects\\SecurePass\\SecurePass\\SecurePass.Application\\Services\\DigitalSecurityTipCategoryService.cs",
-              "RelativeToolTip": "SecurePass.Application\\Services\\DigitalSecurityTipCategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:57:19.464Z",
+              "WhenOpened": "2025-08-14T22:14:12.331Z",
               "EditorCaption": ""
             }
           ]

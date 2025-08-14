@@ -1,16 +1,18 @@
 ﻿using SecurePass.Application.Contracts;
 using SecurePass.Domain.Entities;
 using SecurePass.Infraestructure.Repositories;
+using SecurePass.Application.Dtos;
+using SecurePass.Infrastructure.Interfaces;
 
 namespace SecurePass.Applicatio.Services
 {
     public class PasswordStrengthEvaluationService : IPasswordStrengthEvaluationService
     {
-        private readonly PasswordStrengthEvaluationRepository _repo;
+        private readonly IPasswordStrengthEvaluationRepository _repo;
         private readonly UnitOfWork _unitOfWork;
 
 
-        public PasswordStrengthEvaluationService(PasswordStrengthEvaluationRepository _repo, UnitOfWork _unitOfWork)
+        public PasswordStrengthEvaluationService(IPasswordStrengthEvaluationRepository _repo, UnitOfWork _unitOfWork)
         {
             this._repo = _repo;
             this._unitOfWork = _unitOfWork;

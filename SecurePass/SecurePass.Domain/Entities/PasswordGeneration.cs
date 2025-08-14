@@ -15,7 +15,10 @@ namespace SecurePass.Domain.Entities
         public bool IncludeNumber { get; set; }
         public bool IncludeSpecialCharacter { get; set; }
 
+
         public virtual ICollection<PasswordStrengthEvaluation> PasswordStrengthEvaluations { get; set; } = new List<PasswordStrengthEvaluation>();
+
+        public int UserId { get; set; }
 
         public virtual User User { get; set; }
     }

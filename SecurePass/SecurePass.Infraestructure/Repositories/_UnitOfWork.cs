@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SecurePass.Domain.Entities;
 using SecurePass.Infraestructure.Data;
+using SecurePass.Infrastructure.Interfaces;
 
 namespace SecurePass.Infraestructure.Repositories
 {
@@ -12,25 +13,27 @@ namespace SecurePass.Infraestructure.Repositories
     {
         private readonly SecurePassApplicationContext _context;
 
-        public DigitalSecurityTipRepository DigitalSecurityTip { get; }
-        public DigitalSecurityTipCategoryRepository DigitalSecurityTipCategory { get; }
-        public PasswordGenerationRepository PasswordGeneration { get; }
+        public IDigitalSecurityTipRepository DigitalSecurityTip { get; }
+        public IDigitalSecurityTipCategoryRepository DigitalSecurityTipCategory { get; }
+        public IPasswordGenerationRepository PasswordGeneration { get; }
         
-        public PasswordStrengthEvaluationRepository PasswordStrengthEvaluation { get; }
+        public IPasswordStrengthEvaluationRepository PasswordStrengthEvaluation { get; }
         
-        public UserRepository User { get; }
+        public IUserRepository User { get; }
 
         public UnitOfWork(
-            DigitalSecurityTipRepository digitalSecurityTipRepository,
-            PasswordGenerationRepository passwordGenerationRepository,
-            DigitalSecurityTipCategoryRepository digitalSecurityTipCategoryRepository,
-            PasswordStrengthEvaluationRepository passwordStrengthEvaluationRepository,
-            UserRepository userRepository
+            IDigitalSecurityTipRepository digitalSecurityTipRepository,
+            IDigitalSecurityTipCategoryRepository digitalSecurityTipCategoryRepository,
+            IPasswordGenerationRepository passwordGenerationRepository,
+            
+            IPasswordStrengthEvaluationRepository passwordStrengthEvaluationRepository,
+            IUserRepository userRepository
             )
         {
             this.DigitalSecurityTip = digitalSecurityTipRepository;
-            this.PasswordGeneration = passwordGenerationRepository;
             this.DigitalSecurityTipCategory = digitalSecurityTipCategoryRepository;
+            this.PasswordGeneration = passwordGenerationRepository;
+            
             this.PasswordStrengthEvaluation = passwordStrengthEvaluationRepository;
             this.User = userRepository;
         }
