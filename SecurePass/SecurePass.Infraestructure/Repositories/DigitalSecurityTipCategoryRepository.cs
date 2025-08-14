@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SecurePass.Domain.Entities;
 using SecurePass.Infraestructure.Data;
+using SecurePass.Infrastructure.Interfaces;
 
 namespace SecurePass.Infraestructure.Repositories
 {
-    public class DigitalSecurityTipCategoryRepository
+    public class DigitalSecurityTipCategoryRepository : IDigitalSecurityTipCategoryRepository
     {
         private readonly SecurePassApplicationContext _context;
 

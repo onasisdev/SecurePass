@@ -1,9 +1,10 @@
-﻿using SecurePass.Domain.Entities;
+﻿using SecurePass.Application.Contracts;
+using SecurePass.Domain.Entities;
 using SecurePass.Infraestructure.Repositories;
 
 namespace SecurePass.Applicatio.Services
 {
-    public class DigitalSecurityTipService
+    public class DigitalSecurityTipService : IDigitalSecurityTipService
     {
         private readonly DigitalSecurityTipRepository _repo;
         private readonly UnitOfWork _unitOfWork;

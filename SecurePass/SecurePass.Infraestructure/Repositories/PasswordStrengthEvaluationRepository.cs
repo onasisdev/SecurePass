@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using SecurePass.Infraestructure.Data;
 using SecurePass.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using SecurePass.Infrastructure.Interfaces;
 
 namespace SecurePass.Infraestructure.Repositories
 {
-    public class PasswordStrengthEvaluationRepository
+    public class PasswordStrengthEvaluationRepository : IPasswordStrengthEvaluationRepository
     {
         private readonly SecurePassApplicationContext _context;
 

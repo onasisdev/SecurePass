@@ -1,9 +1,10 @@
-﻿using SecurePass.Domain.Entities;
+﻿using SecurePass.Application.Contracts;
+using SecurePass.Domain.Entities;
 using SecurePass.Infraestructure.Repositories;
 
 namespace SecurePass.Applicatio.Services
 {
-    public class DigitalSecurityTipCategoryService
+    public class DigitalSecurityTipCategoryService : IDigitalSecurityTipCategoryService
     {
         private readonly DigitalSecurityTipCategoryRepository _repo;
         private readonly UnitOfWork _unitOfWork;
@@ -15,7 +16,7 @@ namespace SecurePass.Applicatio.Services
             this._unitOfWork = _unitOfWork;
         }
 
-        public async Task<List<DigitalSecurityTipCategoryDto>> GetAllDigitalSecurityTipAsync()
+        public async Task<List<DigitalSecurityTipCategoryDto>> GetAllDigitalSecurityTipCategoryAsync()
         {
 
             var digitalSecurityTipCategory = await _repo.GetAllDigitalSecurityTipCategoryAsync();
@@ -31,7 +32,7 @@ namespace SecurePass.Applicatio.Services
 
         }
 
-        public async Task<DigitalSecurityTipCategoryDto> GetDigitalSecurityTipByIdAsync(int id)
+        public async Task<DigitalSecurityTipCategoryDto> GetDigitalSecurityTipCategoryByIdAsync(int id)
         {
             var digitalSecurityTipCategory = await _unitOfWork.DigitalSecurityTipCategory.GetDigitalSecurityTipCategoryByIdAsync(id);
 
@@ -53,7 +54,7 @@ namespace SecurePass.Applicatio.Services
 
         }
 
-        public async Task AddDigitalSecurityTipAsync(DigitalSecurityTipCategoryDto digitalSecurityTipCategoryDto)
+        public async Task AddDigitalSecurityTipCategoryAsync(DigitalSecurityTipCategoryDto digitalSecurityTipCategoryDto)
         {
             var digitalSecurityTipCategoryEntity = new DigitalSecurityTipCategory
             {
@@ -68,7 +69,7 @@ namespace SecurePass.Applicatio.Services
 
         }
 
-        public async Task UpdateDigitalSecurityTipAsync(DigitalSecurityTipCategoryDto digitalSecurityTipCategoryDto)
+        public async Task UpdateDigitalSecurityTipCategoryAsync(DigitalSecurityTipCategoryDto digitalSecurityTipCategoryDto)
         {
             var digitalSecurityTipCategoryEntity = await _unitOfWork.DigitalSecurityTipCategory.GetDigitalSecurityTipCategoryByIdAsync(digitalSecurityTipCategoryDto.Id);
 
@@ -81,7 +82,7 @@ namespace SecurePass.Applicatio.Services
             await _unitOfWork.DigitalSecurityTipCategory.UpdateDigitalSecurityTipCategoryAsync(digitalSecurityTipCategoryEntity);
         }
 
-        public async Task DeleteDigitalSecurityTipAsync(int id)
+        public async Task DeleteDigitalSecurityTipCategoryAsync(int id)
         {
             await _unitOfWork.DigitalSecurityTipCategory.DeleteDigitalSecurityTipCategoryAsync(id);
         }

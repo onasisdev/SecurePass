@@ -1,9 +1,10 @@
-﻿using SecurePass.Domain.Entities;
+﻿using SecurePass.Application.Contracts;
+using SecurePass.Domain.Entities;
 using SecurePass.Infraestructure.Repositories;
 
 namespace SecurePass.Applicatio.Services
 {
-    public class PasswordStrengthEvaluationService
+    public class PasswordStrengthEvaluationService : IPasswordStrengthEvaluationService
     {
         private readonly PasswordStrengthEvaluationRepository _repo;
         private readonly UnitOfWork _unitOfWork;
@@ -15,7 +16,7 @@ namespace SecurePass.Applicatio.Services
             this._unitOfWork = _unitOfWork;
         }
 
-        public async Task<List<PasswordStrengthEvaluationDto>> GetAllpasswordStrengthEvaluationAsync()
+        public async Task<List<PasswordStrengthEvaluationDto>> GetAllPasswordStrengthEvaluationAsync()
         {
 
             var passwordStrengthEvaluation = await _repo.GetAllPasswordStrengthEvaluationAsync();
@@ -43,7 +44,7 @@ namespace SecurePass.Applicatio.Services
 
 
 
-        public async Task<PasswordStrengthEvaluationDto> GetpasswordStrengthEvaluationByIdAsync(int id)
+        public async Task<PasswordStrengthEvaluationDto> GetPasswordStrengthEvaluationByIdAsync(int id)
         {
             var passwordStrengthEvaluation = await _unitOfWork.PasswordStrengthEvaluation.GetPasswordStrengthEvaluationByIdAsync(id);
 
@@ -63,7 +64,7 @@ namespace SecurePass.Applicatio.Services
 
         }
 
-        public async Task AddpasswordStrengthEvaluationAsync(PasswordStrengthEvaluationDto passwordStrengthEvaluationDto)
+        public async Task AddPasswordStrengthEvaluationAsync(PasswordStrengthEvaluationDto passwordStrengthEvaluationDto)
         {
             var passwordStrengthEvaluationEntity = new PasswordStrengthEvaluation
             {
@@ -78,7 +79,7 @@ namespace SecurePass.Applicatio.Services
 
         }
 
-        public async Task UpdatepasswordStrengthEvaluationAsync(PasswordStrengthEvaluationDto passwordStrengthEvaluationDto)
+        public async Task UpdatePasswordStrengthEvaluationAsync(PasswordStrengthEvaluationDto passwordStrengthEvaluationDto)
         {
             var passwordStrengthEvaluationEntity = await _unitOfWork.PasswordStrengthEvaluation.GetPasswordStrengthEvaluationByIdAsync(passwordStrengthEvaluationDto.Id);
 
@@ -89,7 +90,7 @@ namespace SecurePass.Applicatio.Services
             await _unitOfWork.PasswordStrengthEvaluation.UpdatePasswordStrengthEvaluationAsync(passwordStrengthEvaluationEntity);
         }
 
-        public async Task DeletepasswordStrengthEvaluationAsync(int id)
+        public async Task DeletePasswordStrengthEvaluationAsync(int id)
         {
             await _unitOfWork.PasswordStrengthEvaluation.DeletePasswordStrengthEvaluationAsync(id);
         }
