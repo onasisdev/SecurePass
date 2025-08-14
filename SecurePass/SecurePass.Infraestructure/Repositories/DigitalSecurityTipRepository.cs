@@ -25,7 +25,7 @@ namespace SecurePass.Infraestructure.Repositories
                 .ToListAsync();
         }
 
-        public async Task<DigitalSecurityTip> GetDigitalSecurityTipById(int id)
+        public async Task<DigitalSecurityTip> GetDigitalSecurityTipByIdAsync(int id)
         {
             return await _context.DigitalSecurityTips
                 .Include(g => g.User)
@@ -36,13 +36,13 @@ namespace SecurePass.Infraestructure.Repositories
         public async Task AddDigitalSecurityTipAsync(DigitalSecurityTip digitalSecurityTip)
         {
             _context.DigitalSecurityTips.Add(digitalSecurityTip);
-            await _context.SaveChangesAsync();
+            
         }
 
         public async Task UpdateDigitalSecurityTipAsync(DigitalSecurityTip digitalSecurityTip)
         {
             _context.DigitalSecurityTips.Update(digitalSecurityTip);
-            await _context.SaveChangesAsync();
+            
         }
 
         public async Task DeleteDigitalSecurityTipAsync(int id)
@@ -52,7 +52,7 @@ namespace SecurePass.Infraestructure.Repositories
             if (digitalSecurityTip != null)
             {
                 _context.DigitalSecurityTips.Remove(digitalSecurityTip);
-                await _context.SaveChangesAsync();
+                
             }
         }
 

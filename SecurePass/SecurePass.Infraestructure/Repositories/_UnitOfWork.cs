@@ -13,8 +13,9 @@ namespace SecurePass.Infraestructure.Repositories
         private readonly SecurePassApplicationContext _context;
 
         public DigitalSecurityTipRepository DigitalSecurityTip { get; }
+        public DigitalSecurityTipCategoryRepository DigitalSecurityTipCategory { get; }
         public PasswordGenerationRepository PasswordGeneration { get; }
-        public PasswordGeneration_PasswordStrengthEvaluationRepository PasswordGeneration_PasswordStrengthEvaluation { get; }
+        
         public PasswordStrengthEvaluationRepository PasswordStrengthEvaluation { get; }
         
         public UserRepository User { get; }
@@ -22,14 +23,14 @@ namespace SecurePass.Infraestructure.Repositories
         public UnitOfWork(
             DigitalSecurityTipRepository digitalSecurityTipRepository,
             PasswordGenerationRepository passwordGenerationRepository,
-            PasswordGeneration_PasswordStrengthEvaluationRepository PasswordGeneration_PasswordStrengthEvaluationRepository,
+            DigitalSecurityTipCategoryRepository digitalSecurityTipCategoryRepository,
             PasswordStrengthEvaluationRepository passwordStrengthEvaluationRepository,
             UserRepository userRepository
             )
         {
             this.DigitalSecurityTip = digitalSecurityTipRepository;
             this.PasswordGeneration = passwordGenerationRepository;
-            this.PasswordGeneration_PasswordStrengthEvaluation = PasswordGeneration_PasswordStrengthEvaluationRepository;
+            this.DigitalSecurityTipCategory = digitalSecurityTipCategoryRepository;
             this.PasswordStrengthEvaluation = passwordStrengthEvaluationRepository;
             this.User = userRepository;
         }

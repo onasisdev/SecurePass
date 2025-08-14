@@ -26,7 +26,7 @@ namespace SecurePass.Infraestructure.Repositories
                 .ToListAsync();
         }
 
-        public async Task<PasswordStrengthEvaluation> GetPasswordStrengthEvaluationById(int id)
+        public async Task<PasswordStrengthEvaluation> GetPasswordStrengthEvaluationByIdAsync(int id)
         {
             return await _context.PasswordStrengthEvaluations
                 .Include(g => g.User)
@@ -40,13 +40,13 @@ namespace SecurePass.Infraestructure.Repositories
         public async Task AddPasswordStrengthEvaluationAsync(PasswordStrengthEvaluation passwordStrengthEvaluation)
         {
             _context.PasswordStrengthEvaluations.Add(passwordStrengthEvaluation);
-            await _context.SaveChangesAsync();
+            
         }
 
         public async Task UpdatePasswordStrengthEvaluationAsync(PasswordStrengthEvaluation passwordStrengthEvaluation)
         {
             _context.PasswordStrengthEvaluations.Update(passwordStrengthEvaluation);
-            await _context.SaveChangesAsync();
+            
         }
 
         public async Task DeletePasswordStrengthEvaluationAsync(int id)
@@ -56,7 +56,7 @@ namespace SecurePass.Infraestructure.Repositories
             if (passwordStrengthEvaluation != null)
             {
                 _context.PasswordStrengthEvaluations.Remove(passwordStrengthEvaluation);
-                await _context.SaveChangesAsync();
+                
             }
         }
 

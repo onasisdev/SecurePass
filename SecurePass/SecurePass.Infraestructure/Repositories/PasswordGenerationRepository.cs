@@ -26,7 +26,7 @@ namespace SecurePass.Infraestructure.Repositories
                 .ToListAsync();
         }
 
-        public async Task<PasswordGeneration> GetPasswordGenerationById(int id)
+        public async Task<PasswordGeneration> GetPasswordGenerationByIdAsync(int id)
         {
             return await _context.PasswordGenerations
                 .Include(g => g.User)
@@ -40,13 +40,13 @@ namespace SecurePass.Infraestructure.Repositories
         public async Task AddPasswordGenerationAsync(PasswordGeneration passwordGeneration)
         {
             _context.PasswordGenerations .Add(passwordGeneration);
-            await _context.SaveChangesAsync();
+            
         }
 
         public async Task UpdatePasswordGenerationAsync(PasswordGeneration passwordGeneration)
         {
             _context.PasswordGenerations.Update(passwordGeneration);
-            await _context.SaveChangesAsync();
+            
         }
 
         public async Task DeletePasswordGenerationAsync(int id)
@@ -56,7 +56,7 @@ namespace SecurePass.Infraestructure.Repositories
             if (passwordGeneration != null)
             {
                 _context.PasswordGenerations.Remove(passwordGeneration);
-                await _context.SaveChangesAsync();
+                
             }
         }
             

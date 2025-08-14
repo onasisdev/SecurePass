@@ -15,5 +15,7 @@ namespace SecurePass.Domain.Entities
         public List<string> DynamicUpdateOfTip { get; set; }
 
         public virtual User User { get; set; }
+
+        public virtual DigitalSecurityTipCategory DigitalSecurityTipCategory { get; set; }
     }
 }

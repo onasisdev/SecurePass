@@ -1,0 +1,95 @@
+﻿using SecurePass.Domain.Entities;
+using SecurePass.Infraestructure.Repositories;
+
+namespace SecurePass.Applicatio.Services
+{
+    public class DigitalSecurityTipCategoryService
+    {
+        private readonly DigitalSecurityTipCategoryRepository _repo;
+        private readonly UnitOfWork _unitOfWork;
+
+
+        public DigitalSecurityTipCategoryService(DigitalSecurityTipCategoryRepository _repo, UnitOfWork _unitOfWork)
+        {
+            this._repo = _repo;
+            this._unitOfWork = _unitOfWork;
+        }
+
+        public async Task<List<DigitalSecurityTipCategoryDto>> GetAllDigitalSecurityTipAsync()
+        {
+
+            var digitalSecurityTipCategory = await _repo.GetAllDigitalSecurityTipCategoryAsync();
+            return digitalSecurityTipCategory.Select(c => new DigitalSecurityTipCategoryDto
+            {
+                Id = c.Id,
+                Name = c.Name,
+                Description = c.Description,
+
+
+            }).ToList();
+
+
+        }
+
+        public async Task<DigitalSecurityTipCategoryDto> GetDigitalSecurityTipByIdAsync(int id)
+        {
+            var digitalSecurityTipCategory = await _unitOfWork.DigitalSecurityTipCategory.GetDigitalSecurityTipCategoryByIdAsync(id);
+
+            if (digitalSecurityTipCategory == null)
+            {
+                return null;
+            }
+
+            return new DigitalSecurityTipCategoryDto
+            {
+                Id = digitalSecurityTipCategory.Id,
+                Name = digitalSecurityTipCategory.Name,
+                Description = digitalSecurityTipCategory.Description,
+
+
+            };
+
+
+
+        }
+
+        public async Task AddDigitalSecurityTipAsync(DigitalSecurityTipCategoryDto digitalSecurityTipCategoryDto)
+        {
+            var digitalSecurityTipCategoryEntity = new DigitalSecurityTipCategory
+            {
+                Id = digitalSecurityTipCategoryDto.Id,
+                Name = digitalSecurityTipCategoryDto.Name,
+                Description = digitalSecurityTipCategoryDto.Description,
+
+            };
+
+            await _unitOfWork.DigitalSecurityTipCategory.AddDigitalSecurityTipCategoryAsync(digitalSecurityTipCategoryEntity);
+
+
+        }
+
+        public async Task UpdateDigitalSecurityTipAsync(DigitalSecurityTipCategoryDto digitalSecurityTipCategoryDto)
+        {
+            var digitalSecurityTipCategoryEntity = await _unitOfWork.DigitalSecurityTipCategory.GetDigitalSecurityTipCategoryByIdAsync(digitalSecurityTipCategoryDto.Id);
+
+            digitalSecurityTipCategoryEntity.Id = digitalSecurityTipCategoryDto.Id;
+            digitalSecurityTipCategoryEntity.Name = digitalSecurityTipCategoryDto.Name;
+            digitalSecurityTipCategoryEntity.Description = digitalSecurityTipCategoryDto.Description;
+
+
+
+            await _unitOfWork.DigitalSecurityTipCategory.UpdateDigitalSecurityTipCategoryAsync(digitalSecurityTipCategoryEntity);
+        }
+
+        public async Task DeleteDigitalSecurityTipAsync(int id)
+        {
+            await _unitOfWork.DigitalSecurityTipCategory.DeleteDigitalSecurityTipCategoryAsync(id);
+        }
+
+
+
+
+
+
+    }
+}
