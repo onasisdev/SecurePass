@@ -10,8 +10,7 @@ namespace SecurePass.Domain.Entities
     {
         public int Id { get; set; }
         public string StrengthLevel { get; set; }
-        public string GoodOrBadAspect { get; set; }
-        public string SuggestionMessage { get; set; }
+        public List<string> SuggestionMessage { get; set; }
 
         public virtual PasswordGeneration PasswordGeneration { get; set; }
         public int PasswordGenerationId { get; set; }

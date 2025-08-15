@@ -12,7 +12,7 @@ namespace SecurePass.Application.Dtos
     {
         public int Id { get; set; }
         public List<string> GoodPractice { get; set; }
-        public List<string> DynamicUpdateOfTip { get; set; }
+       
 
         public virtual UserDto User { get; set; }
     }

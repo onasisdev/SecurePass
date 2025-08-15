@@ -36,7 +36,6 @@ namespace SecurePass.Applicatio.Services
                 {
                     Id = d.Id,
                     StrengthLevel = d.StrengthLevel,
-                    GoodOrBadAspect = d.GoodOrBadAspect,
                     SuggestionMessage = d.SuggestionMessage,
 
                 }).ToList()
@@ -103,6 +102,8 @@ namespace SecurePass.Applicatio.Services
         {
             await _unitOfWork.PasswordGeneration.DeletePasswordGenerationAsync(id);
         }
+
+       
 
     }
 }

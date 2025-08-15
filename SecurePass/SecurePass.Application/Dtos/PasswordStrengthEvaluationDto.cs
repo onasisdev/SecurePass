@@ -11,10 +11,9 @@ namespace SecurePass.Application.Dtos
     {
         public int Id { get; set; }
         public string StrengthLevel { get; set; }
-        public string GoodOrBadAspect { get; set; }
-        public string SuggestionMessage { get; set; }
+        public List<string> SuggestionMessage { get; set; }
 
-        public virtual PasswordGeneration PasswordGeneration { get; set; }
+        public virtual PasswordGenerationDto PasswordGeneration { get; set; }
         public int PasswordGenerationId { get; set; }
         public virtual User User { get; set; }
         public int UserId { get; set; }

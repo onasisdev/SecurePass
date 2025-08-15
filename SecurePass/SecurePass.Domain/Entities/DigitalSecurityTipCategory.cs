@@ -9,8 +9,8 @@ namespace SecurePass.Domain.Entities
     public class DigitalSecurityTipCategory
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public List<string> Name { get; set; }
+        public List<string> Description { get; set; }
 
         public virtual ICollection<DigitalSecurityTip> DigitalSecurityTips { get; set; } = new List<DigitalSecurityTip>();
     }

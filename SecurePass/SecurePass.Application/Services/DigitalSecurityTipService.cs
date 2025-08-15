@@ -26,7 +26,7 @@ namespace SecurePass.Applicatio.Services
             {
                 Id = c.Id,
                 GoodPractice = c.GoodPractice,
-                DynamicUpdateOfTip = c.DynamicUpdateOfTip,
+                
 
 
             }).ToList();
@@ -47,7 +47,7 @@ namespace SecurePass.Applicatio.Services
             {
                 Id = digitalSecurityTip.Id,
                 GoodPractice = digitalSecurityTip.GoodPractice,
-                DynamicUpdateOfTip = digitalSecurityTip.DynamicUpdateOfTip,
+                
 
             };
 
@@ -60,7 +60,7 @@ namespace SecurePass.Applicatio.Services
             var digitalSecurityTipEntity = new DigitalSecurityTip
             {
                 GoodPractice = digitalSecurityTipDto.GoodPractice,
-                DynamicUpdateOfTip = digitalSecurityTipDto.DynamicUpdateOfTip,
+                
             };
 
             await _unitOfWork.DigitalSecurityTip.AddDigitalSecurityTipAsync(digitalSecurityTipEntity);
@@ -73,7 +73,7 @@ namespace SecurePass.Applicatio.Services
             var digitalSecurityTipEntity = await _unitOfWork.DigitalSecurityTip.GetDigitalSecurityTipByIdAsync(digitalSecurityTipDto.Id);
 
             digitalSecurityTipEntity.GoodPractice = digitalSecurityTipDto.GoodPractice;
-            digitalSecurityTipEntity.DynamicUpdateOfTip = digitalSecurityTipDto.DynamicUpdateOfTip;
+            
 
 
             await _unitOfWork.DigitalSecurityTip.UpdateDigitalSecurityTipAsync(digitalSecurityTipEntity);

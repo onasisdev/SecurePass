@@ -1,8 +1,9 @@
-﻿using SecurePass.Application.Dtos;
+﻿using SecurePass.Applicatio.Services;
+using SecurePass.Application.Dtos;
 
 namespace SecurePass.Application.Contracts
 {
-    public interface IPasswordGenerationService
+    public interface IPasswordGenerationService 
     {
         Task<List<PasswordGenerationDto>> GetAllPasswordGenerationAsync();
         Task<PasswordGenerationDto> GetPasswordGenerationByIdAsync(int id);
@@ -11,6 +12,8 @@ namespace SecurePass.Application.Contracts
         Task UpdatePasswordGenerationAsync(PasswordGenerationDto PasswordGenerationDto);
 
         Task DeletePasswordGenerationAsync(int id);
+
+        
 
 
     }

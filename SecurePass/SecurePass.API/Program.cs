@@ -13,12 +13,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SecurePassApplicationContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("MainConnection")));
 
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-
-builder.Services.AddControllers();
 
 
 // Add services to the container.
@@ -28,6 +26,9 @@ builder.Services.AddScoped<IDigitalSecurityTipService, DigitalSecurityTipService
 builder.Services.AddScoped<IPasswordGenerationService, PasswordGenerationService>();
 builder.Services.AddScoped<IPasswordStrengthEvaluationService, PasswordStrengthEvaluationService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
+builder.Services.AddScoped<ITipService, TipService>();
+
 
 // Add repositories to the container.
 
@@ -36,6 +37,7 @@ builder.Services.AddScoped<IDigitalSecurityTipRepository, DigitalSecurityTipRepo
 builder.Services.AddScoped<IPasswordGenerationRepository, PasswordGenerationRepository>();
 builder.Services.AddScoped<IPasswordStrengthEvaluationRepository, PasswordStrengthEvaluationRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 
 //Adding cores
 
@@ -53,17 +55,19 @@ builder.Services.AddCors(options =>
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
+
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
+
+
 
 //Using cores
 app.UseCors("AllowAllOrigins");

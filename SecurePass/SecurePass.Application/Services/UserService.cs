@@ -45,7 +45,6 @@ namespace SecurePass.Application.Services
                 {
                     Id = d.Id,
                     StrengthLevel = d.StrengthLevel,
-                    GoodOrBadAspect = d.GoodOrBadAspect,
                     SuggestionMessage = d.SuggestionMessage,
                 }
 

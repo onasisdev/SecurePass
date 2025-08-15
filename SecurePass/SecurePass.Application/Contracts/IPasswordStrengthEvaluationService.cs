@@ -1,4 +1,5 @@
-﻿using SecurePass.Application.Dtos;
+﻿using SecurePass.Applicatio.Services;
+using SecurePass.Application.Dtos;
 
 namespace SecurePass.Application.Contracts
 {
@@ -11,6 +12,8 @@ namespace SecurePass.Application.Contracts
         Task UpdatePasswordStrengthEvaluationAsync(PasswordStrengthEvaluationDto passwordStrengthEvaluationDto);
 
         Task DeletePasswordStrengthEvaluationAsync(int id);
+
+        
 
 
     }

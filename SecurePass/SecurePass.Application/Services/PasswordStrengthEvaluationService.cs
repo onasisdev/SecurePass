@@ -10,6 +10,7 @@ namespace SecurePass.Applicatio.Services
     {
         private readonly IPasswordStrengthEvaluationRepository _repo;
         private readonly UnitOfWork _unitOfWork;
+        
 
 
         public PasswordStrengthEvaluationService(IPasswordStrengthEvaluationRepository _repo, UnitOfWork _unitOfWork)
@@ -26,7 +27,6 @@ namespace SecurePass.Applicatio.Services
             {
                 Id = c.Id,
                 StrengthLevel = c.StrengthLevel,
-                GoodOrBadAspect = c.GoodOrBadAspect,
                 SuggestionMessage = c.SuggestionMessage,
 
 
@@ -59,7 +59,6 @@ namespace SecurePass.Applicatio.Services
             {
                 Id = passwordStrengthEvaluation.Id,
                 StrengthLevel = passwordStrengthEvaluation.StrengthLevel,
-                GoodOrBadAspect = passwordStrengthEvaluation.GoodOrBadAspect,
                 SuggestionMessage = passwordStrengthEvaluation.SuggestionMessage,
 
             };
@@ -72,7 +71,6 @@ namespace SecurePass.Applicatio.Services
             {
                 Id = passwordStrengthEvaluationDto.Id,
                 StrengthLevel = passwordStrengthEvaluationDto.StrengthLevel,
-                GoodOrBadAspect = passwordStrengthEvaluationDto.GoodOrBadAspect,
                 SuggestionMessage = passwordStrengthEvaluationDto.SuggestionMessage,
             };
 
@@ -86,7 +84,6 @@ namespace SecurePass.Applicatio.Services
             var passwordStrengthEvaluationEntity = await _unitOfWork.PasswordStrengthEvaluation.GetPasswordStrengthEvaluationByIdAsync(passwordStrengthEvaluationDto.Id);
 
             passwordStrengthEvaluationEntity.StrengthLevel = passwordStrengthEvaluationDto.StrengthLevel;
-            passwordStrengthEvaluationEntity.GoodOrBadAspect = passwordStrengthEvaluationDto.GoodOrBadAspect;
             passwordStrengthEvaluationEntity.SuggestionMessage = passwordStrengthEvaluationDto.SuggestionMessage;
 
             await _unitOfWork.PasswordStrengthEvaluation.UpdatePasswordStrengthEvaluationAsync(passwordStrengthEvaluationEntity);
@@ -96,5 +93,7 @@ namespace SecurePass.Applicatio.Services
         {
             await _unitOfWork.PasswordStrengthEvaluation.DeletePasswordStrengthEvaluationAsync(id);
         }
+
+        
     }
 }

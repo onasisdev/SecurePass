@@ -9,7 +9,7 @@ namespace SecurePass.Application.Dtos
     public class DigitalSecurityTipCategoryDto
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public List<string> Name { get; set; }
+        public List<string> Description { get; set; }
     }
 }
