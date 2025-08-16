@@ -53,7 +53,7 @@ namespace SecurePass.API.Controllers
                 IncludeNumber = addPasswordGenerationDto.IncludeNumber,
                 IncludeSpecialCharacter = addPasswordGenerationDto.IncludeSpecialCharacter,
                 UserId = addPasswordGenerationDto.UserId
-            
+
             };
 
             dbContext.PasswordGenerations.Add(passwordGenerationEntity);

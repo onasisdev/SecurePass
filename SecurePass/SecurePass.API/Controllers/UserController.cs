@@ -50,7 +50,7 @@ namespace SecurePass.API.Controllers
                 Id = addUserDto.Id,
                 Name = addUserDto.Name,
                 Email = addUserDto.Email,
-                Password = addUserDto.Password,                
+                Password = addUserDto.Password,
             };
 
             dbContext.Users.Add(userEntity);
@@ -75,7 +75,7 @@ namespace SecurePass.API.Controllers
 
             user.Name = updateUserDto.Name;
             user.Email = updateUserDto.Email;
-            user.Password = updateUserDto.Password; 
+            user.Password = updateUserDto.Password;
 
             dbContext.SaveChanges();
 

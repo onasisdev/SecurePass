@@ -14,7 +14,7 @@ namespace SecurePass.API.Controllers
     public class TipController : ControllerBase
     {
 
-        
+
         private readonly ITipService _tipService;
 
 
@@ -30,7 +30,7 @@ namespace SecurePass.API.Controllers
             var digitalSecurityTip = await _tipService.AddDigitalSecurityTip(tipDtoForController.DigitalSecurityTipDtoForController);
             var digitalSecurityTipCategory = await _tipService.AddDigitalSecurityTipCategory(tipDtoForController.DigitalSecurityTipCategoryDto);
 
-            return Ok(new {digitalSecurityTip, digitalSecurityTipCategory });
+            return Ok(new { digitalSecurityTip, digitalSecurityTipCategory });
         }
     }
 }

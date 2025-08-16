@@ -11,8 +11,8 @@ using SecurePass.Infraestructure.Data;
 namespace SecurePass.Infrastructure.Migrations
 {
     [DbContext(typeof(SecurePassApplicationContext))]
-    [Migration("20250814221151_init")]
-    partial class init
+    [Migration("20250816194351_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,10 +34,6 @@ namespace SecurePass.Infrastructure.Migrations
 
                     b.Property<int>("DigitalSecurityTipCategoryId")
                         .HasColumnType("int");
-
-                    b.PrimitiveCollection<string>("DynamicUpdateOfTip")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.PrimitiveCollection<string>("GoodPractice")
                         .IsRequired()
@@ -63,11 +59,11 @@ namespace SecurePass.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Description")
+                    b.PrimitiveCollection<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
+                    b.PrimitiveCollection<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -96,6 +92,14 @@ namespace SecurePass.Infrastructure.Migrations
                     b.Property<bool>("IncludeUpperCaseLetter")
                         .HasColumnType("bit");
 
+                    b.Property<string>("Label")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("PasswordLength")
                         .HasColumnType("int");
 
@@ -118,10 +122,6 @@ namespace SecurePass.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("GoodOrBadAspect")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("PasswordGenerationId")
                         .HasColumnType("int");
 
@@ -129,7 +129,7 @@ namespace SecurePass.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SuggestionMessage")
+                    b.PrimitiveCollection<string>("SuggestionMessage")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

@@ -5,7 +5,7 @@
 namespace SecurePass.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -46,7 +46,6 @@ namespace SecurePass.Infrastructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     GoodPractice = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DynamicUpdateOfTip = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false),
                     DigitalSecurityTipCategoryId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -78,7 +77,9 @@ namespace SecurePass.Infrastructure.Migrations
                     IncludeLowerCaseLetter = table.Column<bool>(type: "bit", nullable: false),
                     IncludeNumber = table.Column<bool>(type: "bit", nullable: false),
                     IncludeSpecialCharacter = table.Column<bool>(type: "bit", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false)
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    Label = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -98,7 +99,6 @@ namespace SecurePass.Infrastructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     StrengthLevel = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    GoodOrBadAspect = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     SuggestionMessage = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PasswordGenerationId = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false)

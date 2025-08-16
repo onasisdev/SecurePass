@@ -76,7 +76,7 @@ namespace SecurePass.Application.Services
                     
                     """);
 
-                    Console.WriteLine(passwordStrengthEvaluationDtoForController.SuggestionMessage);
+                    
 
                 }
                 else if (password.Length >= 8)

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SecurePass — Generador, Evaluación y Gestor de Contraseñas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🔐 SecurePass</h1>
+      <p>Genera, evalúa y gestiona contraseñas — sin almacenar en claro.</p>
+    </header>
+
+    <main>
+      <!-- =====================
+         GENERAR & EVALUAR
+         ===================== -->
+      <section class="grid">
+        <div class="card col-6">
+          <h2>Generar contraseña</h2>
+          <div class="row">
+            <label class="right" style="min-width: 120px"
+              >Longitud
+              <input id="length" type="number" min="4" max="64" value="12" />
+            </label>
+          </div>
+          <div class="row">
+            <label
+              ><input id="optUpper" type="checkbox" checked /> Mayúsculas</label
+            >
+            <label
+              ><input id="optLower" type="checkbox" checked /> Minúsculas</label
+            >
+            <label
+              ><input id="optNums" type="checkbox" checked /> Números</label
+            >
+            <label><input id="optSpec" type="checkbox" /> Símbolos</label>
+          </div>
+          <div class="row" style="margin-top: 10px">
+            <button id="btnGenerate" class="btn primary">Generar</button>
+            <button
+              id="btnSaveGenerated"
+              class="btn"
+              title="Guardar esta contraseña en tu lista"
+            >
+              Guardar
+            </button>
+            <span class="hint"
+              >La generación/evaluación ocurre en el servidor (API).</span
+            >
+          </div>
+          <div class="output">
+            <div
+              id="generated"
+              class="mono"
+              style="
+                flex: 1;
+                min-height: 42px;
+                padding: 10px 12px;
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                background: #0d1430;
+              "
+            >
+              —
+            </div>
+            <button id="btnCopy" class="btn ghost">Copiar</button>
+          </div>
+        </div>
+
+        <div class="card col-6">
+          <h2>Evaluar fortaleza</h2>
+          <input
+            id="toEvaluate"
+            type="text"
+            placeholder="Escribe o pega una contraseña..."
+          />
+          <div class="row" style="margin-top: 10px">
+            <button id="btnEvaluate" class="btn primary">Evaluar</button>
+          </div>
+          <div id="evalBox" style="margin-top: 10px"></div>
+        </div>
+      </section>
+
+      <!-- =====================
+         GESTOR (CRUD)
+         ===================== -->
+      <section class="card">
+        <div class="row" style="align-items: center">
+          <h2 style="margin-right: auto">Tus contraseñas</h2>
+          <input
+            id="search"
+            type="text"
+            placeholder="Buscar por etiqueta..."
+            style="max-width: 280px"
+          />
+          <button id="btnNew" class="btn">Nueva</button>
+        </div>
+
+        <table class="table" style="margin-top: 8px">
+          <thead>
+            <tr>
+              <th>Etiqueta</th>
+              <th>Contraseña</th>
+              <th>Fortaleza y sugerencias</th>
+              
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <p class="hint" style="margin-top: 8px">
+          Consejo: evita almacenar contraseñas reales. Usa alias/etiquetas y
+          considera gestores especializados para producción.
+        </p>
+      </section>
+    </main>
+
+    <!-- =====================
+       MODALES
+       ===================== -->
+    <div class="modal" id="modalEdit">
+      <div class="scrim" data-close></div>
+      <div class="dialog">
+        <h3 id="modalTitle">Nueva contraseña</h3>
+        <div class="row">
+          <label class="col-12"
+            >Etiqueta
+            <input id="fLabel" type="text" placeholder="Ej: Correo personal" />
+          </label>
+        </div>
+        <div class="row">
+          <label class="col-12"
+            >Contraseña
+            <input
+              id="fPassword"
+              type="text"
+              placeholder="Pega o genera aquí"
+            />
+          </label>
+        </div>
+        <div id="modalEval" class="hint" style="margin: 8px 0 0"></div>
+        <div class="row" style="margin-top: 12px; justify-content: flex-end">
+          <button class="btn ghost" data-close>Cancelar</button>
+          <button id="btnModalSave" class="btn primary">Guardar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

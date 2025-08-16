@@ -1,5 +1,163 @@
 [
   {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipController",
+    "Method": "GetAllDigitalSecurityTips",
+    "RelativePath": "api/DigitalSecurityTip",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipController",
+    "Method": "AddDigitalSecurityTip",
+    "RelativePath": "api/DigitalSecurityTip",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addDigitalSecurityTipDto",
+        "Type": "SecurePass.Application.Dtos.AddDigitalSecurityTipDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipController",
+    "Method": "GetDigitalSecurityTiptById",
+    "RelativePath": "api/DigitalSecurityTip/id{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipController",
+    "Method": "UpdateDigitalSecurityTip",
+    "RelativePath": "api/DigitalSecurityTip/id{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDigitalSecurityTipDto",
+        "Type": "SecurePass.Application.Dtos.UpdateDigitalSecurityTipDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipController",
+    "Method": "DeleteDigitalSecurityTip",
+    "RelativePath": "api/DigitalSecurityTip/id{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipCategoryController",
+    "Method": "GetAllDigitalSecurityTipCategorys",
+    "RelativePath": "api/DigitalSecurityTipCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipCategoryController",
+    "Method": "AddDigitalSecurityTipCategory",
+    "RelativePath": "api/DigitalSecurityTipCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addDigitalSecurityTipCategoryDto",
+        "Type": "SecurePass.Application.Dtos.AddDigitalSecurityTipCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipCategoryController",
+    "Method": "GetDigitalSecurityTipCategorytById",
+    "RelativePath": "api/DigitalSecurityTipCategory/id{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipCategoryController",
+    "Method": "UpdateDigitalSecurityTipCategory",
+    "RelativePath": "api/DigitalSecurityTipCategory/id{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDigitalSecurityTipCategoryDto",
+        "Type": "SecurePass.Application.Dtos.UpdateDigitalSecurityTipCategoryDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.DigitalSecurityTipCategoryController",
+    "Method": "DeleteDigitalSecurityTipCategory",
+    "RelativePath": "api/DigitalSecurityTipCategory/id{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SecurePass.API.Controllers.PasswordController",
     "Method": "GenerateAndEvaluate",
     "RelativePath": "api/Password/GenerateAndEvaluate",
@@ -256,6 +414,69 @@
     "ContainingType": "SecurePass.API.Controllers.UserController",
     "Method": "DeleteUser",
     "RelativePath": "api/User/id{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.UserPasswordController",
+    "Method": "GetAllPasswords",
+    "RelativePath": "api/UserPassword",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.UserPasswordController",
+    "Method": "AddUserPassword",
+    "RelativePath": "api/UserPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SecurePass.Application.Dtos.AddUserPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.UserPasswordController",
+    "Method": "UpdateUserPassword",
+    "RelativePath": "api/UserPassword/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "SecurePass.Application.Dtos.AddUserPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecurePass.API.Controllers.UserPasswordController",
+    "Method": "DeleteUserPassword",
+    "RelativePath": "api/UserPassword/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

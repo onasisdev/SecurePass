@@ -18,6 +18,9 @@ namespace SecurePass.Application.Dtos
 
         public int UserId { get; set; }
 
+        public string Label { get; set; }
+        public string Password { get; set; }
+
 
         public virtual ICollection<PasswordStrengthEvaluationDto> PasswordStrengthEvaluations { get; set; } = new List<PasswordStrengthEvaluationDto>();
 

@@ -1,15 +1,40 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SecurePass.Domain.Entities;
+using Microsoft.Extensions.Configuration;
+using System.IO;
+
 
 namespace SecurePass.Infraestructure.Data
 {
     public class SecurePassApplicationContext : DbContext
     {
+
+      public SecurePassApplicationContext() { }
+
         public SecurePassApplicationContext(DbContextOptions<SecurePassApplicationContext> options)
             : base(options)
         {
         }
 
+       
+
+            
+
+        
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<PasswordGeneration> PasswordGenerations { get; set; }
+        public DbSet<PasswordStrengthEvaluation> PasswordStrengthEvaluations { get; set; }
+        public DbSet<DigitalSecurityTip> DigitalSecurityTips { get; set; }
+        public DbSet<DigitalSecurityTipCategory> DigitalSecurityTipCategories { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+
+        {
+
+            optionsBuilder.UseSqlServer("Server=ONASIS-LAPTOP-H;Database=SecurePassDb;Trusted_Connection=True;TrustServerCertificate=True;");
+
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -34,11 +59,7 @@ namespace SecurePass.Infraestructure.Data
          .OnDelete(DeleteBehavior.Cascade);
         }
 
-        public DbSet<User> Users { get; set; }
-        public DbSet<PasswordGeneration> PasswordGenerations { get; set; }
-        public DbSet<PasswordStrengthEvaluation> PasswordStrengthEvaluations { get; set; }
-        public DbSet<DigitalSecurityTip> DigitalSecurityTips { get; set; }
-        public DbSet<DigitalSecurityTipCategory> DigitalSecurityTipCategories { get; set; }
+       
 
     }
 }

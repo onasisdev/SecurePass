@@ -10,8 +10,12 @@ using SecurePass.Infrastructure.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//builder.Services.AddDbContext<SecurePassApplicationContext>(options =>
+//options.UseSqlServer(builder.Configuration.GetConnectionString("MainConnection")));
+
 builder.Services.AddDbContext<SecurePassApplicationContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("MainConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MainConnection"),
+    b => b.MigrationsAssembly("SecurePass.Infrastructure")));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -43,11 +47,24 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAllOrigins",
-        builder => builder.AllowAnyOrigin()
-                          .AllowAnyMethod()
-                          .AllowAnyHeader());
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://127.0.0.1:5500") // Tu origen de Live Server
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
 });
+
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowAll",
+//        builder =>
+//        {
+//            builder.AllowAnyOrigin()
+//                   .AllowAnyMethod()
+//                   .AllowAnyHeader();
+//        });
+//});
 
 
 
@@ -70,7 +87,7 @@ app.UseSwaggerUI();
 
 
 //Using cores
-app.UseCors("AllowAllOrigins");
+app.UseCors("AllowFrontend");
 
 app.UseHttpsRedirection();
 

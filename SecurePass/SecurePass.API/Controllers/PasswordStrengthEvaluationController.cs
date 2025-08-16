@@ -50,7 +50,7 @@ namespace SecurePass.API.Controllers
                 Id = addPasswordStrengthEvaluationDto.Id,
                 StrengthLevel = addPasswordStrengthEvaluationDto.StrengthLevel,
                 SuggestionMessage = addPasswordStrengthEvaluationDto.SuggestionMessage,
-                            
+
             };
 
             dbContext.PasswordStrengthEvaluations.Add(passwordStrengthEvaluationEntity);

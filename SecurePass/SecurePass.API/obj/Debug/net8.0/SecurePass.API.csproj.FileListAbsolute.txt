@@ -176,3 +176,9 @@ C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA 
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\SecurePass.API.pdb
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\SecurePass.API.genruntimeconfig.cache
 C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\obj\Debug\net8.0\ref\SecurePass.API.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\onasi\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\0 ITLA Programming Practices\Final Projects\SecurePass\SecurePass\SecurePass.API\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
