@@ -34,15 +34,15 @@
       includeLowerCaseLetter: /[a-z]/.test(password),
       includeNumber: /\d/.test(password),
       includeSpecialCharacter: /[^A-Za-z0-9]/.test(password),
-      userId: 0
+      userId: 0,
     },
     passwordStrengthEvaluationDtoForController: {
       id: 0,
       strengthLevel: "",
       suggestionMessage: [],
       passwordGenerationId: 0,
-      userId: 0
-    }
+      userId: 0,
+    },
   };
   const resp = await fetch(`${API_BASE}/api/Password/GenerateAndEvaluate`, {
     method: 'POST',
@@ -86,7 +86,7 @@
 const body = {
   passwordGenerationDtoForController: {
     id: 0,
-    passwordLength: parseInt($length.value || "12", 10),
+    passwordLength: parseInt($length.value),
     includeUpperCaseLetter: $optUpper.checked,
     includeLowerCaseLetter: $optLower.checked,
     includeNumber: $optNums.checked,
@@ -101,6 +101,8 @@ const body = {
     userId: 0
   }
 };
+
+         
 // ...existing code...
 
           const response = await fetch(

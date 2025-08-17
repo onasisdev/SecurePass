@@ -129,15 +129,7 @@ namespace SecurePass.Application.Services
                 }
 
 
-                if (password.Contains("1234") || password.Contains("abcd") || password.Contains("querty"))
-                {
-                    passwordStrengthEvaluationDtoForController.SuggestionMessage.Add("Evita secuencias predecibles como '1234' o 'abcd'; estas reducen la seguridad de tu contraseña.");
-
-                }
-                else if (!password.Contains("1234") || !password.Contains("abcd") || !password.Contains("querty"))
-                {
-                    amountOfCriteriaCompleted += 1;
-                }
+               
 
 
                 if (amountOfCriteriaCompleted <= 2)

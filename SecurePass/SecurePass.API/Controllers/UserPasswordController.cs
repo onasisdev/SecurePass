@@ -134,10 +134,10 @@ namespace SecurePass.API.Controllers
             var ifHas1234 = "1234";
             bool has1234 = ifHas1234.Any(c => password.Contains(c));
 
-            var abcd = "1234";
+            var abcd = "abcd";
             bool hasabcd = abcd.Any(c => password.Contains(c));
 
-            var querty = "1234";
+            var querty = "querty";
             bool has_querty = querty.Any(c => password.Contains(c));
 
             if (password.Length < 8)
@@ -204,15 +204,7 @@ namespace SecurePass.API.Controllers
             }
 
 
-            if (has1234 || hasabcd || has_querty)
-            {
-                suggestions.Add("Evita secuencias predecibles como '1234' o 'abcd'; estas reducen la seguridad de tu contraseña.");
-
-            }
-            else if (!has1234 || !hasabcd || !has_querty)
-            {
-                score += 1;
-            }
+            
 
 
             if (score <= 2)
@@ -232,15 +224,7 @@ namespace SecurePass.API.Controllers
 
 
 
-            if (has1234 || hasabcd || has_querty)
-            {
-                suggestions.Add("Evita secuencias predecibles como '1234' o 'abcd'; estas reducen la seguridad de tu contraseña.");
-
-            }
-            else if (!password.Contains("1234") || !password.Contains("abcd") || !password.Contains("querty"))
-            {
-                score +=1;
-            }
+           
 
             
             return (strength, suggestions.ToArray());
